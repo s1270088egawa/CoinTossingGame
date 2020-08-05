@@ -20,5 +20,11 @@ int main(){
         }
     }
 printf("Heads:%d, Tails: %d\n",head,tail);
+if(head > tail){
+printf("%s won!\n", funame);
+}
+else{
+printf("%s lost!\n",funame);
+}
 return 0;
 }
